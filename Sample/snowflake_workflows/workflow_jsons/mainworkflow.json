@@ -1,0 +1,6 @@
+{
+    "wf_NUODATA_TEST":{"stepType":"mainWF", "depends_on": "None", "notebook": "None"},
+    "Wkl_NUODATA_TEST_Pre_Load":{"stepType": "Sub Workflow", "depends_on": "wf_NUODATA_TEST", "notebook": "..../WorkflowExecutor"},
+    "Wkl_NUODATA_TEST_BASE_Load":{"stepType": "Sub Workflow", "depends_on": "Wkl_NUODATA_TEST_Pre_Load", "notebook": "..../WorkflowExecutor"},
+    "s_Last_CALENDER_DATE":{"stepType": "session", "depends_on": "Wkl_NUODATA_TEST_BASE_Load", "notebook": "..../s_Last_CALENDER_DATE"}
+}
