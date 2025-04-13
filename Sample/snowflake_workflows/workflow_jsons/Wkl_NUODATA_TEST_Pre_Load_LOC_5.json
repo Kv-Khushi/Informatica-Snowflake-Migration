@@ -1,5 +1,0 @@
-{
-    "s_NUODATA_USER_TEST":{"stepType": "session", "depends_on": "None", "notebook": "..../s_NUODATA_USER_TEST"},
-    "s_NUODATA_DEPARTMENT_TEST":{"stepType": "session", "depends_on": "s_NUODATA_USER_TEST", "notebook": "..../s_NUODATA_DEPARTMENT_TEST"},
-    "s_NUODATA_SUMMARY_TEST":{"stepType": "session", "depends_on": "s_NUODATA_DEPARTMENT_TEST", "notebook": "..../s_NUODATA_SUMMARY_TEST"}
-}
